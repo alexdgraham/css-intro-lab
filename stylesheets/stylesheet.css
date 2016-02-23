@@ -6,14 +6,13 @@ body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  background-color:f30; 
-  line-height: 1.5;
+   line-height: 1.5;
   color: #606c71;
   text-align: center;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 600px;
   min-height: 800px;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
@@ -22,6 +21,13 @@ body {
   text-align: left;
   background-color: #eee;
 }
+
+.container .page-header {
+background-color: yellow;
+}
+
+
+
 
 section {
     margin: 3em 0;
